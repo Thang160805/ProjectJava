@@ -30,6 +30,7 @@ public class Alo extends HttpServlet {
 		response.setContentType("text/html; charset=UTF-8");
 		PrintWriter out = response.getWriter();
 		out.print("<h1>Dang Nhap Thanh Cong</h1>");
+		out.print("<h1>Dang Nhap Thanh nhanh</h1>");
 	}
 
 	/**
